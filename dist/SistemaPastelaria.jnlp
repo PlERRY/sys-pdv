@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SistemaPastelaria.jnlp">
+  <information>
+    <title>SistemaPastelaria</title>
+    <vendor>home</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SistemaPastelaria.jar" size="3022973" download="eager" />
+    <jar href="lib\fastinfoset-1.2.7.jar" size="291834" download="eager" />
+    <jar href="lib\javax.persistence_2.1.0.v201304241213.jar" size="164637" download="eager" />
+    <jar href="lib\postgresql-9.4.1209.jar" size="678049" download="eager" />
+  </resources>
+  <application-desc main-class="Jframes.início"  name="SistemaPastelaria" >
+  </application-desc>
+  <update check="background"/>
+</jnlp>
